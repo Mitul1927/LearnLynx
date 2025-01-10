@@ -5,6 +5,7 @@ LearnLynx is a feature-rich learning management platform designed to streamline 
 here's some screenshots of project -
 ![learnlynx](https://github.com/user-attachments/assets/86efcd44-a175-4fd4-bc1a-849718c3779a)
 ![learnlynx (2)](https://github.com/user-attachments/assets/dfb1f47e-c22a-43cd-9d63-4ffb756577ef)
+![learnlynx (3)](https://github.com/user-attachments/assets/8daf18a5-4854-4d4d-b089-8da9236f6429)
 
 ## Features
 - **Google Authentication:** Integrated using Passport and OAuth 2.0 for secure user access.

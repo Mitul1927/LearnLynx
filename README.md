@@ -4,11 +4,12 @@ LearnLynx is a feature-rich learning management platform designed to streamline 
 
 here's some screenshots of project -
 ![learnlynx](https://github.com/user-attachments/assets/86efcd44-a175-4fd4-bc1a-849718c3779a)
-
+![learnlynx (2)](https://github.com/user-attachments/assets/dfb1f47e-c22a-43cd-9d63-4ffb756577ef)
 
 ## Features
 - **Google Authentication:** Integrated using Passport and OAuth 2.0 for secure user access.
 - **Razorpay Api:** Integrated razorpay api for smooth transactions.
+
 - **Course Management:** Users can explore, enroll in, and manage courses.
 - **User-Friendly Interface:** Built with a clean and interactive design for better user experience.
 - **Scalability:** Designed with a scalable MERN stack architecture.

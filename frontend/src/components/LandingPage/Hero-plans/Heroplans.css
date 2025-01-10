@@ -1,0 +1,191 @@
+.page4 {
+  font-family: "Outfit";
+  padding: 2rem 0.5rem 2rem 2rem;
+}
+.page4-potential {
+  font-size: 4rem;
+  font-weight: 600;
+  transform: translateY(4.5rem) translateX(-3rem);
+  font-family: "Outfit";
+  margin: 0rem 0rem 0rem 6rem;
+}
+.page4-flex {
+  display: flex;
+  box-sizing: border-box;
+  gap: 4rem;
+}
+
+.page4-left {
+  transform: translateY(8rem) translateX(-3rem);
+}
+.page4-learnlynx {
+  background-color: #f9c365;
+  display: inline-block;
+  font-weight: 600;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  margin: 1rem 0px 0px 6rem;
+  border: 2px solid black;
+  border-radius: 5rem;
+  font-size: 4rem;
+  font-style: italic;
+}
+.person-standing {
+  height: 35rem;
+  width: 40rem;
+}
+.page4-one-content {
+  margin: 5rem 10rem 0rem 6rem;
+  line-height: 1.5rem;
+}
+.page4-btn {
+  margin: 4rem 0rem 0rem 6rem;
+  background-color: #f9c365;
+  border: 2px solid black;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+.page4-btn-content {
+  color: black;
+  font-size: 3rem;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  font-style: italic;
+}
+.page4-arrow {
+  display: inline-block;
+  margin-left: 10px;
+  transition: all 0.4s ease-in-out;
+  transform: rotate(-45deg);
+}
+.page4-btn:hover .page4-arrow {
+  transform: rotate(0deg);
+  margin-left: 40px;
+}
+
+.page5-container {
+  font-family: "Outfit";
+}
+.page5 {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  text-align: center;
+}
+.page5-on {
+  margin-top: 3.5rem;
+}
+.page5-div1 {
+  display: flex;
+  background-color: #f9c365;
+  padding: 2rem 1rem 2rem 1rem;
+  margin: 7rem 4rem 7rem 4rem;
+  border-radius: 6rem;
+}
+.page5-col2 {
+  margin: 5rem 0rem 0rem 9rem;
+}
+.page5-ready {
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 0px;
+  /* margin: 0rem 0rem 0rem 6rem; */
+}
+.page5-dinner {
+  font-size: 1.25rem;
+}
+.page5-order {
+  background-color: black;
+  border: 2px solid #f9c365;
+  border-radius: 3rem;
+  color: #f9c365;
+  cursor: pointer;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+.page5-arrow {
+  display: inline-block;
+  margin-left: 10px;
+  transition: all 0.4s ease-in-out;
+  transform: rotate(-45deg);
+}
+
+.page5-div2 {
+  align-items: center;
+  text-align: center;
+  margin: 1rem 0rem 2rem 0rem;
+  font-size: 4rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+.page5-learning {
+  margin: 0px;
+}
+.page5-mobile {
+  background-color: #f9c365;
+  font-style: italic;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  border: 2px solid black;
+  border-radius: 5rem;
+  color: #202020;
+}
+.rabbitear {
+  position: absolute;
+  left: 0;
+  top: 4250px;
+}
+.rabbitflower {
+  position: absolute;
+  right: 0;
+  top: 4050px;
+}
+.page6-buttons {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 20px; */
+  margin-bottom: 80px;
+  gap: 100px;
+}
+.page6button-col1 {
+  display: flex;
+  align-items: center;
+}
+.color {
+  color: white;
+  font-size: 2rem;
+}
+.page6-btn {
+  background-color: black;
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid black;
+  margin-top: 5rem;
+}
+.page6-para {
+  color: white;
+  margin: 0px;
+  padding: 0px 0px 0px 20px;
+  line-height: 1.2rem;
+  text-align: left;
+}
+.page6-googleplay {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.page6-appstore {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* HeroPlans.css */
+
+.rabbitear,
+.rabbitflower {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.5s ease-in-out;
+}
+
+.animate .rabbitear,
+.animate .rabbitflower {
+  opacity: 1;
+  transform: translateY(0);
+}

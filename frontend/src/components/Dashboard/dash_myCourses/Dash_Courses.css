@@ -1,0 +1,157 @@
+/* courses.css */
+
+.container {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    padding: 20px;
+    background: #fef6e4;
+  }
+  
+  .left-panel {
+    flex: 1;
+  }
+  
+  .right-panel {
+    flex: 3;
+  }
+  
+  .box-small-wide {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .courses-table {
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .courses-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .courses-table th,
+  .courses-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .courses-table th {
+    background-color: #f9c365;
+    color: white;
+  }
+  
+  .courses-table td img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+  }
+  
+  .add-course-button {
+    background-color: #f9c365;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .add-course-button:hover {
+    background-color: #f7a623;
+  }
+  
+  .edit-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #f9c365;
+  }
+  
+  .edit-button:hover {
+    color: #f7a623;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .modal h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .modal form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .save-button {
+    background-color: #f9c365;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  .save-button:hover {
+    background-color: #f7a623;
+  }
+  .image-preview {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .delete-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+  }
+  
+  .delete-button:hover {
+    background-color: #f9c365;
+  }
+  

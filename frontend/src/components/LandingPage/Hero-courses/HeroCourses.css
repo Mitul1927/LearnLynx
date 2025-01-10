@@ -1,0 +1,53 @@
+.page3 {
+  background-color: #333533;
+  font-family: "Outfit";
+  padding-bottom: 2rem;
+}
+.explore-btn {
+  background-color: black;
+  border: 2px solid #f9c365;
+  margin: 1.5rem 0 0 40%;
+  border-radius: 3rem;
+  cursor: pointer;
+  padding: 0 35px;
+}
+.explore {
+  color: #f9c365;
+  font-size: 3rem;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  font-style: italic;
+}
+.explore-arrow {
+  display: inline-block;
+  margin-left: 10px;
+  transition: all 0.4s ease-in-out;
+  transform: rotate(-45deg);
+}
+.explore-btn:hover .explore-arrow {
+  transform: rotate(0deg);
+  margin-left: 40px;
+}
+.popular {
+  font-family: "Outfit";
+  color: white;
+  align-items: center;
+  text-align: center;
+  font-size: 5rem;
+  padding: 2rem 0rem 2rem 0rem;
+  margin: 0px;
+}
+.courses {
+  color: #f9c365;
+  border: 2px solid #f9c365;
+  padding: 0rem 2rem 0rem 1rem;
+  background-color: #202020;
+  border-radius: 5rem;
+  font-style: italic;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  /* margin: 2rem 0rem 0rem 0rem; */
+}

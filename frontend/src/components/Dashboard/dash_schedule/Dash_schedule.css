@@ -1,0 +1,149 @@
+/* DashSchedule.css */
+
+/* Container for the whole schedule section */
+.schedule-class-container {
+  background-color: #fdecc6;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: -0.5rem auto 0 auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+}
+
+/* Title of the section */
+.schedule-class-container h1 {
+  color: #f9c365;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* Form styling */
+.schedule-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+
+/* Form group label and input */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Label styling */
+.form-group label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Input and select elements */
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #f9c365;
+  box-shadow: 0 0 5px rgba(249, 195, 101, 0.3);
+}
+
+/* Submit button */
+.submit-button {
+  background-color: #f9c365;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.submit-button:hover {
+  background-color: #f8b850;
+}
+
+/* Message Display */
+.message {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .schedule-class-container {
+    padding: 20px;
+  }
+
+  .schedule-form {
+    padding: 15px;
+  }
+
+  .submit-button {
+    padding: 10px 20px;
+  }
+}
+
+/* Loader Styles */
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #e99000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+  display: inline-block;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Button Styles */
+.submit-button {
+  background-color: #e99000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}

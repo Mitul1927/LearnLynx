@@ -1,0 +1,182 @@
+/* Dash_student.css */
+
+/* Main container styling */
+.dash-students-container {
+  background-color: #fdfbfc;
+  border-radius: 15px;
+  padding: 40px 30px;
+  margin: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 1100px;
+  margin: 0 auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.dash-students-container:hover {
+  transform: scale(1);
+}
+
+/* Title styling */
+.dash-students-title {
+  font-size: 2rem;
+  color: #2d2d2d;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Dropdown container */
+.dash-students-dropdown {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+/* Label for the dropdown */
+.dash-students-label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #555;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Dropdown select styling */
+.dash-students-select {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  background-color: #fff;
+  color: #333;
+  width: 100%;
+  transition: all 0.3s ease;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+
+.dash-students-select:hover,
+.dash-students-select:focus {
+  border-color: #f9c365;
+  background-color: #f9f1d5;
+}
+
+/* Table container styling */
+.dash-students-table-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.dash-students-table-container:hover {
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Table styling */
+.dash-students-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.dash-students-table th,
+.dash-students-table td {
+  padding: 15px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.dash-students-table th {
+  background-color: #f9c365;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.dash-students-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.dash-students-table tr:hover {
+  background-color: #ffefb3;
+  cursor: pointer;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Empty data message */
+.dash-students-no-data {
+  font-size: 1.2rem;
+  color: #777;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+}
+
+/* Dash_student.css */
+
+/* Button to export data */
+.export-btn {
+  background-color: #f9c365;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.export-btn:hover {
+  background-color: #f9b145;
+}
+
+.export-btn:focus {
+  outline: none;
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 768px) {
+  .dash-students-container {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .dash-students-title {
+    font-size: 1.8rem;
+  }
+
+  .dash-students-dropdown {
+    margin-bottom: 20px;
+  }
+
+  .dash-students-select {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  .dash-students-table th,
+  .dash-students-table td {
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .dash-students-table {
+    font-size: 0.95rem;
+  }
+
+  .dash-students-no-data {
+    font-size: 1rem;
+  }
+}

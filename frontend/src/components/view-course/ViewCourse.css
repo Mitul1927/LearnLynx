@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap");
+
+/* Dark Section */
+.course-header {
+  font-family: "Outfit";
+  background-color: #1c1c1c;
+  color: white;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.course-info {
+  margin-left: 6rem;
+
+  max-width: 60%;
+  animation: fadeInLeft 1s ease;
+  font-family: "Outfit";
+}
+
+.course-info h1 {
+  font-size: 2.75rem;
+  font-family: "Outfit";
+  color: #999;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.course-description {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  font-family: "Outfit";
+}
+
+.course-card-container {
+  max-width: 30%;
+  margin-right: 6rem;
+  animation: fadeInRight 1s ease;
+  font-family: "Outfit";
+}
+
+.course-card {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: "Outfit";
+  position: relative;
+}
+
+.course-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.course-card-img {
+  width: 100%;
+  height: 11rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.course-card-img:hover {
+  transform: scale(1.05);
+}
+
+.course-card-content h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  color: #333;
+}
+
+.course-price {
+  font-size: 1.2rem !important;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 1.5rem;
+  color: #666;
+
+  text-decoration: line-through;
+}
+
+.discount-price {
+  color: #e67e22;
+  text-decoration: none;
+}
+
+.enroll-btn {
+  background-color: #f9c365;
+  color: black;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-left: -10rem !important;
+  margin-top: 1rem;
+}
+
+.enroll-btn:hover {
+  background-color: #e0a54c;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* White Section */
+.course-details {
+  padding: 4rem 3rem;
+  animation: fadeInUp 1s ease;
+  /* margin-bottom: 2rem; */
+}
+
+.course-extra-info h2 {
+  font-size: 2.25rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.course-extra-info p {
+  font-size: 1.25rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+/* Animations */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Extra Info Section */
+.course-details {
+  padding: 4rem 3rem;
+  background-color: #f5f5f5;
+  animation: fadeInUp 1s ease;
+}
+
+.course-extra-info {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.info-section {
+  margin-bottom: 3rem;
+}
+
+.info-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  border-bottom: 2px solid #f9c365;
+  padding-bottom: 0.5rem;
+}
+
+.info-section p {
+  font-size: 1.25rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+.info-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info-section ul li {
+  font-size: 1.25rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}

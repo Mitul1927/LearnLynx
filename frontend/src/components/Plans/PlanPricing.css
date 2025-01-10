@@ -1,0 +1,126 @@
+/* PlanPricing.css */
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  height: 80vh;
+  font-family: "Outfit";
+  /* background-color: #fdecc6; */
+}
+
+.pricing-content {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.pricing-details {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.pricing-details h1 {
+  color: #f9c365;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.pricing-details p {
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 0;
+  color: #555;
+}
+
+.pricing-features li {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.pricing-features li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #f9c365;
+}
+
+.pricing-card-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+}
+
+.pricing-card h2 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.plan-price {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #f9c365;
+}
+
+.plan-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  color: #555;
+  text-align: left;
+}
+
+.plan-features li {
+  margin-bottom: 10px;
+}
+
+.checkout-btn {
+  background-color: #f9c365;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background-color: #d89d4d;
+}
+
+/* Disabled button styles */
+.checkout-btn.disabled {
+  background-color: #b0b0b0; /* Gray color for disabled state */
+  color: #6d6d6d; /* Darker gray text */
+  cursor: not-allowed; /* Prevent cursor from showing as a pointer */
+}
+
+.checkout-btn:disabled {
+  opacity: 0.7;
+}

@@ -1,0 +1,96 @@
+.footer {
+  background: transparent;
+}
+
+.foot {
+  background-color: #202020;
+  margin: 0rem 5rem 0rem 5rem;
+  padding: 1rem 2rem 0rem 2rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+.foot-div1 {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 2rem 0rem 2rem 0rem; */
+  color: white;
+}
+.logo {
+  height: 40px;
+  /* width: 40px; */
+  position: relative;
+  top: 10px;
+}
+.foot-learnlynx {
+  font-size: 1.5rem;
+  color: #f9c365;
+  margin: 0rem 0rem 0rem 1rem;
+}
+
+.foot-learnlynx > .logo {
+  filter: invert(100%);
+}
+
+.foot-para {
+  margin: 0rem 0rem 0rem 2rem;
+  font-weight: 400;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+}
+.foot-left {
+  margin: 2rem 0rem 2rem 0rem;
+}
+.foot-rights {
+  margin: 0rem 0rem 2rem 2rem;
+}
+.foot-table {
+  gap: 2rem;
+  cursor: pointer;
+}
+.foot-table th:nth-child(2) {
+  text-align: left;
+}
+.table-product {
+  text-align: left;
+  /* padding: 0px; */
+}
+.foot-header {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.foot-div2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0rem 2rem 0rem;
+  color: white;
+}
+
+.footer {
+  font-family: "Outfit";
+  margin: 0;
+  position: relative;
+  transition: none;
+  opacity: 1;
+}
+.footer-div {
+  height: 100px;
+  background-color: #f9c365;
+}
+
+.footer-td {
+  margin-bottom: 1rem;
+}
+
+/* Initial state of the footer */
+/* .footer {
+  opacity: 0;
+  transform: translateY(500px);
+  transition: all 0.5s ease-in-out;
+} */
+
+/* Animation state when in view */
+/* .animate-footer {
+  opacity: 1;
+  transform: translateY(0px);
+} */

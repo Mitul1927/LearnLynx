@@ -1,0 +1,136 @@
+/* Dashboard_navbar.css */
+
+.dashboard-navbar {
+  height: 95.5vh;
+  top: -0.5rem !important;
+  position: relative !important;
+}
+
+.dashboard-navbar2 {
+  width: 28vw;
+  height: 94vh;
+  background: rgba(255, 255, 255, 0.8); /* Transparent glass effect */
+  backdrop-filter: blur(10px); /* Glassmorphism blur */
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  color: #333;
+  display: flex;
+  border-radius: 1rem;
+  flex-direction: column;
+  align-items: center;
+  left: 1rem;
+  position: absolute;
+  top: 0.5rem;
+  overflow: hidden;
+  border-right: 1px solid rgba(249, 195, 101, 0.5);
+}
+
+.dashboard-navbar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid rgba(249, 195, 101, 0.5);
+  text-align: center;
+}
+
+.dashboard-navbar-logo img {
+  width: 7rem;
+  margin-top: -1.4rem;
+  margin-bottom: -1.5rem;
+  margin-right: -0.5rem;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.dashboard-navbar-logo h1 {
+  font-size: 2rem;
+  font-family: "Playfair-Display";
+  color: #f9c365;
+  font-weight: 700;
+}
+
+.dashboard-navbar-links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.dashboard-navbar-navlink {
+  width: 100%;
+  padding: 2px 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+.dashboard-navbar-navlink:hover {
+  background: linear-gradient(90deg, #f9c365 0%, #fdecc6 100%);
+  color: #fff;
+  transform: translateX(5px);
+}
+
+.dashboard-navbar-navlink.active {
+  background: linear-gradient(90deg, #f9c365 0%, #fdecc6 100%);
+  color: #fff;
+  font-weight: 600;
+  transform: translateX(8px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-navbar-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.dashboard-navbar-link svg {
+  font-size: 1.5rem;
+  color: #333;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.dashboard-navbar-navlink:hover .dashboard-navbar-link svg,
+.dashboard-navbar-navlink.active .dashboard-navbar-link svg {
+  transform: scale(1.1);
+  color: #fff;
+}
+
+.navbar-button {
+  margin-top: -0.1rem;
+  width: 100%;
+  padding: 1px 20px;
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 1.1em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.navbar-button:hover {
+  background: linear-gradient(90deg, #fdecc6 0%, #f9c365 100%);
+  color: #fff;
+  transform: translateX(5px);
+}
+
+.navbar-button svg {
+  font-size: 1.5rem;
+  color: #333;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navbar-button:hover svg {
+  transform: scale(1.1);
+  color: #fff;
+}

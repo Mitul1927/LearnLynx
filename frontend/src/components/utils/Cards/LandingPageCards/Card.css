@@ -1,0 +1,95 @@
+.card {
+  height: 26.5rem;
+  background-color: white;
+  width: 21.5rem;
+  margin: 2rem 0rem 2rem 0rem;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.card:hover > .image-i {
+  filter: brightness(70%);
+}
+/* .image-u {
+  height: 13rem;
+  width: auto;
+  border-bottom: 2px solid rgb(158, 158, 158);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+} */
+.image-i {
+  /* height: auto; */
+  height: 14rem;
+  width: 100%;
+  object-fit: cover;
+  border-bottom: 2px solid #aaa;
+  transition: all 0.3s ease-in-out;
+
+  /* object-position: center; */
+}
+.page3-card-para {
+  position: relative;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 1.2rem 0rem 0rem 1rem;
+}
+.page3-card-btn {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  margin: 1rem 0rem 0rem 1rem;
+  border: 2px solid black;
+  border-radius: 3rem;
+  background-color: #f9c365;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.page3-card-btn:hover {
+  background-color: #ffa200;
+}
+.page3-btn-para {
+  font-size: 1rem;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  font-weight: 400;
+}
+
+.ribbon-sale-card {
+  position: absolute;
+  right: -2rem;
+  top: 1.4rem;
+  padding: 0 30px;
+  font-weight: 600;
+  background: #ffc156;
+  transform: rotate(45deg);
+  color: #000;
+  z-index: 99;
+}
+.disc-price-card {
+  position: absolute;
+  bottom: 0.8rem;
+  left: 1rem;
+  color: #ffa200;
+  text-decoration: line-through;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.price-card {
+  position: absolute;
+  /* margin-left: 1rem; */
+  color: #000;
+  bottom: 0.8rem;
+  left: 5rem;
+  /* margin-top: -0.5rem; */
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.description {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #555;
+  text-transform: capitalize;
+}

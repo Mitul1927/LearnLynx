@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap");
+
+.course-grid {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+}
+
+.course-card {
+  font-family: "Outfit";
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 18rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.course-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.course-info {
+  margin-top: 1rem;
+}
+
+.course-info h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.course-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  color: #777;
+  margin-top: 0.5rem;
+}
+
+.view-courses {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.25rem;
+  background-color: #f9c365;
+  color: #000;
+  font-family: "Outfit";
+  font-size: 0.9rem;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.view-courses:hover {
+  background-color: #ffbf50;
+}

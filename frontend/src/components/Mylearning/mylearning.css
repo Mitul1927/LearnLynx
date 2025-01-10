@@ -1,0 +1,16 @@
+.myLearning-header {
+  color: white;
+  background-color: #333532;
+  margin: 0;
+  padding: 2rem 2rem 2rem 5rem;
+  font-style: italic;
+  font-family: "Outfit";
+  font-weight: 500;
+}
+body {
+  margin: 0;
+}
+
+.mylearningcontainer {
+  height: 80vh;
+}

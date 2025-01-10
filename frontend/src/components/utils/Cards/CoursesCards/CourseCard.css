@@ -1,0 +1,68 @@
+/* Coursecard.css */
+
+.course-card {
+    border: 1px solid #e2e8f0; /* border */
+    border-radius: 0.5rem; /* rounded-lg */
+    overflow: hidden; /* overflow-hidden */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+    background-color: #FEF6E4; /* bg-custom-light (light gray background) */
+    max-width: 24rem; /* max-w-sm (small card width) */
+    height: 27.5rem; /* h-110 (110 * 0.25rem) */
+    display: flex; /* flex */
+    flex-direction: column; /* flex-col */
+}
+
+.course-card-img {
+    width: 100%; /* w-full */
+    height: 12rem; /* h-48 (48 * 0.25rem) */
+    object-fit: cover; /* object-cover */
+}
+
+.course-card-content {
+    padding: 1rem; /* p-4 */
+    display: flex; /* flex */
+    flex-direction: column; /* flex-col */
+    flex-grow: 1; /* flex-grow */
+    justify-content: space-between; /* justify-between */
+}
+
+.course-card-info {
+    display: flex; /* flex */
+    justify-content: space-between; /* justify-between */
+    align-items: center; /* items-center */
+    margin-bottom: 0.5rem; /* mb-2 */
+    margin-left: 1.25rem; /* ml-5 */
+}
+
+.course-card-reviews {
+    color: #d97706; /* text-yellow-600 (yellow text for reviews) */
+}
+
+.course-card-duration {
+    color: #4b5563; /* text-gray-600 (gray text for duration) */
+}
+
+.course-card-title {
+    font-size: 1.875rem; /* text-3xl */
+    font-weight: 600; /* font-semibold */
+    margin-bottom: 0.5rem; /* mb-2 */
+}
+
+.course-card-button {
+    padding-top: 0.5rem; /* py-2 */
+    padding-bottom: 0.5rem; /* py-2 */
+    padding-left: 1rem; /* px-4 */
+    padding-right: 1rem; /* px-4 */
+    background-color: #1f2937; /* bg-gray-800 (dark gray background) */
+    color: white; /* text-white */
+    border-radius: 9999px; /* rounded-full */
+    margin-top: 1rem; /* mt-4 */
+    align-self: flex-start; /* self-start */
+    cursor: pointer;
+    text-decoration: none; /* Remove underline for links */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.course-card-button:hover {
+    background-color: #374151; /* Slightly lighter gray on hover */
+}

@@ -1,0 +1,237 @@
+/* Dash_live.css */
+
+/* Root container styling */
+.live-classes-container {
+  background: linear-gradient(145deg, #fdecc6, #f9c365);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 950px;
+  margin: 40px auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: "Outfit", sans-serif;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.live-classes-container:hover {
+  transform: scale(1.02);
+}
+
+.live-classes-container h1 {
+  color: #e37e10;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Live class list styling */
+.class-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.class-card {
+  background: linear-gradient(145deg, #ffffff, #f4f4f4);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.class-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.course-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.class-time {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 10px 0;
+}
+
+/* Button common styles */
+.start-class-button,
+.bulk-email-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.start-class-button {
+  background-color: #f9c365;
+  color: white;
+}
+
+.start-class-button:hover {
+  background-color: #e37e10;
+  box-shadow: 0 6px 16px rgba(227, 126, 16, 0.3);
+}
+
+.bulk-email-button {
+  background-color: #4caf50;
+  color: white;
+  margin-left: 10px;
+}
+
+.bulk-email-button:hover {
+  background-color: #43a047;
+  box-shadow: 0 6px 16px rgba(67, 160, 71, 0.3);
+}
+
+/* Error message styling */
+.error-message {
+  color: #e53935;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+/* Modal styling */
+.meeting-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  width: 60rem !important;
+  /* max-width: 800px; */
+  height: 70vh;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+  animation: slideIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Modal header styling */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.modal-header h2 {
+  color: #333;
+  font-size: 1.6rem;
+}
+
+.close-button {
+  font-size: 1.2rem;
+  color: #666;
+  border: 2px solid black;
+  border-radius: 20px;
+  /* padding: 5px; */
+  height: 30px;
+  width: 30px;
+  background: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.close-button:hover {
+  color: #333;
+  transform: scale(1.1);
+}
+
+/* Video container */
+.zego-video-container {
+  width: 100%;
+  height: calc(100% - 80px);
+  background: #000;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+/* Modal footer */
+.modal-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+  align-items: center;
+}
+
+.start-meeting-btn {
+  background-color: #f9c365;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  top: 12rem;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+.start-meeting-btn:hover {
+  background-color: #e37e10;
+  box-shadow: 0 6px 18px rgba(227, 126, 16, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .live-classes-container {
+    padding: 20px;
+  }
+
+  .class-card {
+    padding: 15px;
+  }
+
+  .modal-content {
+    width: 95%;
+  }
+
+  .zego-video-container {
+    height: 300px;
+  }
+}
